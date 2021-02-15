@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 228, 228) ;
+    font-family: verdana;
+}
+.container{
+    width: auto;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 200px;
+    padding: 25px;
+}
+.menu{
+    float: left;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background: #04234d;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 10px;
+    width: 19%;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+
+.ponent_a{
+    text-align: center;
+}
+.img_redondo{
+    width:225px;
+   height:225px;
+   border-radius:175px;
+   border: 3px solid white;
+   text-align: center;
+}
+.ponent_a{
+	width: 100%;
+	border-radius: 25px;
+	border: thick solid #fba548;
+	text-align: center;
+	/*color: #464646;*/
+	color: white;
+	background-color: #f3b083;
+	display: block;
+	float: left;
+}
+.titu_pon{
+	font-family: Georgia;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: thin solid silver;
+}
+.cont_pon{
+	font-family: Georgia;
+	font-size: 16px;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	border-bottom: thin solid silver;
+}
